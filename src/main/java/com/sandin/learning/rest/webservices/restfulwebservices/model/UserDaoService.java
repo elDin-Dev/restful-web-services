@@ -13,7 +13,7 @@ public class UserDaoService {
     static {
         users.add(new User(1,"alex", "01/02/1976"));
         users.add(new User(2,"vicent", "01/12/1990"));
-        users.add(new User(2,"david", "01/12/1974"));
+        users.add(new User(3,"david", "01/12/1974"));
     }
 
     public List<User> findAll() {
@@ -35,4 +35,6 @@ public class UserDaoService {
         }
         return null;
     }
+
+
 }
