@@ -1,4 +1,4 @@
-package com.sandin.learning.rest.webservices.restfulwebservices.infrastructure;
+package com.sandin.learning.rest.webservices.restfulwebservices.infrastructure.helloworld;
 
 public class HelloWorldBean {
 

@@ -9,10 +9,11 @@ import java.util.List;
 public class UserDaoService {
 
     private static List<User> users = new ArrayList<>();
-    private static int  userCount = 2;
+    private static int  userCount = 3;
     static {
         users.add(new User(1,"alex", "01/02/1976"));
         users.add(new User(2,"vicent", "01/12/1990"));
+        users.add(new User(2,"david", "01/12/1974"));
     }
 
     public List<User> findAll() {
